@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    list-style: none;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+ .background{
+     background-image: url(./img/скачать\ бекграунд!.png);
+     background-size: cover; /*растягивает пропорционально высоте и ширине картинки */
+     background-position: center;
+     background-repeat: no-repeat; /*Свойство background-repeat устанавливает, как фоновые изображения будет повторяться*/
+     padding-bottom: 67px;
+ } 
+ 
+ .container{
+     max-width: 1050px;
+     margin: 0 auto;
+ }
+
+ .header, .header_ul{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .header{
+     padding: 30px 0 154px;
+ }
+
+ .text_header{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+ }
+
+ .header_li:not(:last-of-type){
+    margin-right: 21px;
+ }
+
+ .header_li{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+ }
+
+ .title{
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    max-width: 599px;
+    margin-bottom: 35px;
+ }
+
+ .text_p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 376px;
+    margin-bottom: 42px;
+ }
+
+ .input{
+    width: 277px;
+    height: 60px;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding-left: 28px;
+ }
+
+ .input::placeholder{
+    color: white;
+}
+
+ .button{
+    width: 186px;
+    height: 60px;
+    background: #23A6F0;
+    border-radius: 30px;
+    border: none;
+    margin-left: 22px;
+ }
+
+.section_2{
+    background: #252B42;
+    padding: 112px 0;
+}
+
+
+.container_2{
+    max-width: 607px;
+    margin: 0 auto;
+}
+
+.text_h2{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    margin-left: 218px;
+    margin-right: 218px;
+    margin-bottom: 10px;
+}
+
+.container_3{
+    max-width: 470px;
+    margin: 0 auto;
+    height: 40px;
+}
+.p_2{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /*margin-left: 68.5px;*/
+    text-align: center;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 96px;
+}
+
+.gallery_text{
+    max-width: 237px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.gallery_button{
+    width: 168px;
+    height: 42px;
+    border-radius: 37px;
+    border: none;
+    background: #23A6F0;
+}
+
+.gallery_item{
+    position: relative;
+}
+
+.gallery_item:hover>.gallery_item-abs{
+    opacity: 1;
+    transition: 1s;
+}
+
+.gallery_item-abs{
+    position: absolute;
+    bottom: 37px;
+    left: 20px;
+    opacity: 0;
+}
